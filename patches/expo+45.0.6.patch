@@ -1,0 +1,16 @@
+diff --git a/node_modules/expo/android/.npmignore b/node_modules/expo/android/.gitignore
+similarity index 100%
+rename from node_modules/expo/android/.npmignore
+rename to node_modules/expo/android/.gitignore
+diff --git a/node_modules/expo/ios/EXAppDefinesLoader.m b/node_modules/expo/ios/EXAppDefinesLoader.m
+index dd1ee3f..22080ee 100644
+--- a/node_modules/expo/ios/EXAppDefinesLoader.m
++++ b/node_modules/expo/ios/EXAppDefinesLoader.m
+@@ -17,6 +17,7 @@
+ #else
+     @"APP_DEBUG": @(NO),
+ #endif
++    @"APP_UPDATES_DEBUG": @(YES),
+     @"APP_RCT_DEBUG": @(RCT_DEBUG),
+     @"APP_RCT_DEV": @(RCT_DEV),
+ #if RCT_NEW_ARCH_ENABLED
