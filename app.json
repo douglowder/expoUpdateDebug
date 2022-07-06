@@ -12,22 +12,28 @@
       "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/4a367227-931b-4396-a643-be56f95a0859"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.douglowderexpo.expoUpdateDebug"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.douglowderexpo.expoUpdateDebug"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
     }
   }
 }
